@@ -1,0 +1,23 @@
+body, html{
+    height: 100%;
+}
+
+.hero{
+    /* The image used */
+    background-image: url("imgs/photo-1600122534527-748e8fe0d75e.avif");
+    /* Full height */
+    height: 55%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+  }
+
+.main-statement{
+    background-color: white;
+    color: black;
+    margin-top: 200px;
+    width: 60%;
+}
