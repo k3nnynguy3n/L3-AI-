@@ -1,0 +1,30 @@
+#hero{
+    max-width: 100%;
+    max-height: 70%;
+}
+
+.container-fluid{
+    background-color:aqua;
+}
+
+body{
+    background-color: rgb(4, 4, 34);
+}
+
+.navbar{
+    color:aliceblue;
+}
+
+footer{
+    color:aliceblue;
+}
+
+footer ul{
+    list-style: none;
+}
+
+#open-website{
+    background-color: aliceblue;
+    color:aqua;
+}
+
