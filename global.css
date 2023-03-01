@@ -1,10 +1,6 @@
 #hero{
     max-width: 100%;
-    max-height: 70%;
-}
-
-.container-fluid{
-    background-color:aqua;
+    max-height: 60%;
 }
 
 body{
@@ -23,21 +19,47 @@ footer ul{
     list-style: none;
 }
 
+/* button customization */
 #open-website{
-    background-color: aliceblue;
-    color:aqua;
+    background-color: rgba(240, 248, 255, 0);
 }
 
-hero-img{
-    position:absolute;
+button{
+
+}
+/* end button customization */
+
+.hero-img{
+    max-width:100%;
+    position: static;
 }
 
 
-h1{
+/* hero text */
+.animate__animated.animate__fadeInLeft {
+    --animate-duration:3s;
     color:aliceblue;
     position:relative;
-    top: -130px;
-    left:-140px;
     text-align: center;
+    left: -20vh;
+}
+
+.animate__animated.animate__fadeInRight{
+    --animate-duration:3s;
+    color:aliceblue;
+    position:relative;
+    text-align: center;
+    left: 35vh;
+}
+/* end hero text */
+
+.text-block1{
+    text-align: center;
+    color:aliceblue;
+    margin-top: 10vh;
+}
+
+.emph{
+    color:rgb(235, 60, 115);
 }
 
