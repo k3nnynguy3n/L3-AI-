@@ -28,14 +28,17 @@ footer ul{
     color:aqua;
 }
 
-hero-img{
-    position:absolute;
+.hero-img{
+    max-width:100%;
+    position: static;
 }
 
 h1{
     color:aliceblue;
     position:relative;
-    top: -130px;
-    left:-140px;
     text-align: center;
 }
+
+.animate__animated.animate__fadeInLeft {
+    --animate-duration:3s;
+  }
