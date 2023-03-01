@@ -11,7 +11,7 @@ body{
     background-color: rgb(4, 4, 34);
 }
 
-.navbar{
+.nav-link{
     color:aliceblue;
 }
 
@@ -26,5 +26,18 @@ footer ul{
 #open-website{
     background-color: aliceblue;
     color:aqua;
+}
+
+hero-img{
+    position:absolute;
+}
+
+
+h1{
+    color:aliceblue;
+    position:relative;
+    top: -130px;
+    left:-140px;
+    text-align: center;
 }
 
