@@ -9,19 +9,24 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/lightgallery@2.7.1/css/lightgallery-bundle.css" />
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="global.css">
   </head>
+
   <body>
 
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#L3 Group Proj./index.html">Home</a>
+        <a class="nav-link active" aria-current="page" href="/L3 Group Proj./index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="L3 Group Proj./what-is-AI.html">What Is AI?</a>
+        <a class="nav-link" href="/L3 Group Proj./what-is-AI.html">What Is AI?</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Recent Developments</a>
+        <a class="nav-link" href="recentdev.html">Recent Developments</a>
       </li>
       <li class="nav-item">
         <a class="nav-link">Future Implications</a>
@@ -31,27 +36,83 @@
       </li>
     </ul>
 
-      <!-- links to different pages of website  -->
-      <img id="hero" src="imgs/richard-horvath-WOA3QKFjlo8-unsplash.jpg">
-
     <main>
 
-      <div id="animated-thumbnails">
-        <a href="/L3 Group Proj./imgs/">
-          <button
-          class="btn btn-success btn-lg mrb50"
+      <div class="hero-img">
+        <img id="hero" src="imgs/richard-horvath-WOA3QKFjlo8-unsplash.jpg">
+        <div class="position-absolute top-50 start-50 translate-middle">
+          <h1 class="animate__animated animate__fadeInLeft">Conversational <br> AI!</h1>
+          <h2 class="animate__animated animate__fadeInRight">Your one stop shop to understanding this breakthrough technology.</h1>
+        </div>
+      </div>
+
+      <div class="text-block1">
+        <h4>
+          Conversational AI Comes In Many Forms.
+        </h4>
+        <h2>
+          Most commonly, Chatbots.
+        </h2>
+        <div class="emph">
+          <br>
+          <h1>
+          Try One Yourself:
+          </h1>
+          <br>
+        </div>
+      </div>
+
+      <div class="d-grid gap-2 col-6 mx-auto">
+          <button type="button"
+          class="btn btn-success btn-lg mrb50 btn-outline-info"
           data-iframe="true"
           id="open-website"
           data-src="https://chai.ml/"
           data-iframe-title="All new time tracking. Greater insight."
         >
-        Open Chatbot
+          General Chatbot 
+          </button>
+          </a>
+      </div>
+
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button"
+        class="btn btn-success btn-lg mrb50 btn-outline-info"
+        data-iframe="true"
+        id="open-website"
+        data-src="https://www.eclecticenergies.com/psyche/eliza"
+        data-iframe-title="All new time tracking. Greater insight."
+        >
+        Therapy Chatbot 
         </button>
         </a>
-        <!-- <a href="img/img2.jpg">
-            <img src="img/thumb2.jpg" />
-        </a> -->
-    </div>
+      </div>
+
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button"
+        class="btn btn-success btn-lg mrb50 btn-outline-info"
+        data-iframe="true"
+        id="open-website"
+        data-src="https://www.chatbot.com/chatbot-templates/customer-service-template/"
+        data-iframe-title="All new time tracking. Greater insight."
+        >
+        Customer Service Chatbot
+        </button>
+        </a>
+      </div>
+
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button"
+        class="btn btn-success btn-lg mrb50 btn-outline-info"
+        data-iframe="true"
+        id="open-website"
+        data-src="https://www.eclecticenergies.com/psyche/eliza"
+        data-iframe-title="All new time tracking. Greater insight."
+        >
+        Chat GPT (must make account)
+        </button>
+        </a>
+      </div>
 
     </main>
 
