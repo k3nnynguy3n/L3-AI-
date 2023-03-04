@@ -23,6 +23,11 @@
      font-size: 70px;
    }
 
+   .card {
+    background-color: lightgray;
+    margin-left: 12px;
+    margin-right: 12px;
+   }
 
 body {
     margin: 0;
@@ -76,6 +81,7 @@ body {
     font-weight: 200;
     margin-top: 1rem;
 }
+
 
 .hero-button {
     background-color: white;
