@@ -1,0 +1,27 @@
+.nav {
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#gradient {
+    height: 100vh;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: 
+      linear-gradient(to bottom, black, white);
+      position: absolute;
+  }
+
+#content {
+    color: white;
+    padding: 50px;
+}
+
+.row {
+    padding-bottom: 20px;
+}
