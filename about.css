@@ -2,3 +2,23 @@
     object-fit: cover;
     height: 500px;
 }
+
+body{
+    background-color: rgb(4, 4, 34);
+}
+
+.fw-light{
+    color: white;
+}
+
+.bio{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+footer{
+    color: white;
+}
