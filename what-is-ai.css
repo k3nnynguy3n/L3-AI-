@@ -23,3 +23,7 @@ body, html{
     width: 70%;
     text-align: center;
 }
+
+.nav-link{
+    color: white;
+}
